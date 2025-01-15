@@ -1,0 +1,25 @@
+Day 8: Rebase, Revert, and Comparing Merge vs. Rebase 
+
+Topics: 
+
+Reverting pushed commits 
+
+Git rebase vs. merge 
+
+Exercises: 
+
+Revert a Pushed Commit: 
+
+Push a branch to a remote repository after committing revert-me.txt. 
+
+Revert the commit and push the changes to the remote repository. 
+
+Rebase vs. Merge: 
+
+Create two branches (feature-a and feature-b) from main. 
+
+Make separate changes in both branches. 
+
+Use git merge to combine feature-a into main. 
+
+Use git rebase to combine feature-b into main. 
