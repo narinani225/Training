@@ -1,0 +1,27 @@
+Day 5: Branch Management and Conflict Resolution 
+
+Topics: 
+
+Working with branches 
+
+Merging branches 
+
+Resolving merge conflicts 
+
+Exercises: 
+
+Merge a Branch: 
+
+Add a file called feature.txt in feature-branch. 
+
+Stage and commit the file. 
+
+Switch to the main branch and merge feature-branch into it. 
+
+Resolve a Merge Conflict: 
+
+Modify README.md in both the main branch and feature-branch with different changes. 
+
+Commit changes in both branches. 
+
+Merge feature-branch into the main branch and resolve the conflict. 
