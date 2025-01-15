@@ -1,0 +1,41 @@
+Day 1: Introduction to Linux  
+
+Content:  
+
+History of Linux: Learn the evolution of Linux, its architecture, and its importance in DevOps.  
+
+Linux Distributions Overview: Explore various Linux distributions like Ubuntu, CentOS, Fedora, and their differences.  
+
+Basic Linux Commands: Introduction to commands like ls, pwd, cd, man, whoami, history.  
+
+Assignment:  
+
+Use the ls command to list all files in your home directory.  
+
+Navigate to different directories using cd and validate with pwd.  
+
+Explore the manual pages of any three commands using man.  
+
+Use whoami to confirm the logged-in user.  
+
+Run history to check previously executed commands.  
+
+Check the Linux version and kernel using uname -a.  
+
+Create a file named intro.txt using touch.  
+
+Explore file details with ls -l.  
+
+Find hidden files using ls -a.  
+
+Create a directory named linux_basics.  
+
+Remove a directory using rmdir and document the result.  
+
+Use the date command to display the current date and time.  
+
+Explore the system uptime using uptime.  
+
+Use df -h to check disk space usage.  
+
+Write your observations about Linux distributions in a file named distro_notes.txt.  
