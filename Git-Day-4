@@ -1,0 +1,42 @@
+Day 4: Introduction to Git and Basic Operations 
+
+Topics: 
+
+What is Git? 
+
+Introduction to GitHub 
+
+Setting up Git locally 
+
+Basic Git operations 
+
+Exercises: 
+
+Initialize a Repository: 
+
+Create a new directory called my_project and initialize it as a Git repository. 
+
+Create and Commit a File: 
+
+Inside my_project, create a file called README.md with some content. 
+
+Stage and commit the file to the repository. 
+
+Branch Management: 
+
+Create a new branch called feature-branch and switch to it. 
+
+Local Git Operations:
+
+git config -username
+git config  -email
+git status
+git add 
+git add .
+git commit
+git commit -m ""
+git clone 
+git remote 
+git push 
+git pull
+git delete
