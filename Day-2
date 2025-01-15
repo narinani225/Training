@@ -1,0 +1,39 @@
+Day 2: File and Permission Management  
+
+Content:  
+
+File Handling Commands: cat, touch, mv, cp, chmod, chown.  
+
+File Permissions: Understanding Read, Write, Execute permissions with symbolic and numeric representations.  
+
+Assignment:  
+
+Create a directory named project_files.  
+
+Inside project_files, create 5 files named file1.txt to file5.txt using touch.  
+
+Add content to file1.txt using cat > and display its contents with cat.  
+
+Copy file1.txt to backup_file1.txt using cp.  
+
+Rename file5.txt to final_file.txt using mv.  
+
+Remove backup_file1.txt using rm.  
+
+Display the permissions of all files in the directory using ls -l.  
+
+Change permissions of file1.txt to read-only using chmod 444 file1.txt.  
+
+Grant write permissions to the owner of file2.txt using chmod u+w file2.txt.  
+
+Change ownership of file3.txt to a different user using chown (if possible).  
+
+Add execute permissions for all users to file4.txt using chmod a+x file4.txt.  
+
+Revoke write permissions for the group on final_file.txt using symbolic representation.  
+
+Modify the permissions of file1.txt using numeric representation to 754.  
+
+Verify permissions by attempting to write, read, or execute restricted files.  
+
+Document the differences between symbolic and numeric permission settings.  
