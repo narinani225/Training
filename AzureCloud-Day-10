@@ -1,0 +1,55 @@
+Day 10: Introduction to Cloud Computing  
+
+Content:  
+
+Cloud Models: Understanding IaaS, PaaS, SaaS, and their use cases.  
+
+Cloud Concepts: Differences between public, private, and hybrid cloud models.  
+
+Azure Services Overview: Brief introduction to key Azure services:  
+
+App Service  
+
+Storage Account  
+
+Key Vault  
+
+Virtual Machines  
+
+Function Apps  
+
+Azure Container Registry (ACR)  
+
+Networking (VNets, NSGs).  
+
+Assignment:  
+
+Define IaaS, PaaS, and SaaS with real-world examples.  
+
+Compare public, private, and hybrid cloud models.  
+
+Explore the Azure portal to locate the services listed above.  
+
+Create a document summarizing the use cases of App Service and Virtual Machines.  
+
+Research Azure Storage Account pricing tiers and document your findings.  
+
+Write a brief explanation of Key Vault and its security benefits.  
+
+Describe the differences between Virtual Machines and App Services.  
+
+Explain how Azure Container Registry supports DevOps workflows.  
+
+Create a diagram showing the relationship between VNets and NSGs.  
+
+Research and document how Azure Function Apps enable serverless computing.  
+
+Explain the role of Networking in hybrid cloud setups.  
+
+List three real-world applications of Azure services for a business.  
+
+Define the shared responsibility model in cloud computing.  
+
+Explore the Azure pricing calculator for any one service.  
+
+Present an example of a business scenario where Azure services provide cost-effective solutions.  
