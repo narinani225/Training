@@ -1,0 +1,42 @@
+Day 7: Branch Management, Merge Strategies, and Cherry-Picking 
+
+Topics: 
+
+Creating, switching, and deleting branches 
+
+Merge strategies (fast-forward and no-fast-forward) 
+
+Cherry-picking commits 
+
+Exercises: 
+
+Branch Management: 
+
+Create a branch bugfix-123, make changes to README.md, and commit. 
+
+Merge bugfix-123 into the main branch. 
+
+Delete the bugfix-123 branch after merging. 
+
+Rename a branch feature-xyz to enhancement-xyz. 
+
+Merge Strategies: 
+
+Perform a fast-forward merge: 
+
+Create a branch fast-forward-demo from main, make changes, and commit. 
+
+Merge fast-forward-demo into main with a fast-forward merge. 
+
+Perform a no-fast-forward merge: 
+
+Create a branch no-ff-demo from main, make changes, and commit. 
+
+Merge no-ff-demo into main with a no-fast-forward merge. 
+
+Cherry-Picking a Commit: 
+
+Create and commit file1.txt in the main branch. 
+
+Create a branch cherry-pick-demo, commit file2.txt, and cherry-pick the commit from the main branch that added file1.txt. 
+
