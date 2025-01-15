@@ -1,0 +1,45 @@
+Day 9: GitHub Overview and Collaboration 
+
+Topics: 
+
+GitHub basics: repositories, branches, pull requests, and issues 
+
+GitHub CLI 
+
+Collaboration on GitHub 
+
+Introduction to GitHub Actions 
+
+Assignment Tasks: 
+
+Create a GitHub Repository: 
+
+Create a public repository called github-exercises with a README.md. 
+
+Clone and Push Changes: 
+
+Clone the repository to your local machine. 
+
+Add a file called hello-world.txt, commit it, and push the changes. 
+
+Work with Issues: 
+
+Create a feature request issue in the repository and assign it to yourself. 
+
+Fork a Repository: 
+
+Fork a public repository on GitHub, clone it to your local machine, and create a pull request with a small change (e.g., update README.md). 
+
+Collaborate with Branches: 
+
+Create a branch feature-update, add a file collaboration.txt, and push it. 
+
+Review and Merge a Pull Request: 
+
+Simulate a review by commenting on your own pull request. 
+
+Merge the pull request into the main branch. 
+
+GitHub Actions: 
+
+Explore GitHub Actions by setting up a simple workflow to build and test a project. 
