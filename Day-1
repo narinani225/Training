@@ -8,8 +8,39 @@ Linux Distributions Overview: Explore various Linux distributions like Ubuntu, C
 
 Basic Linux Commands: Introduction to commands like ls, pwd, cd, man, whoami, history.  
 
-Assignment:  
-
+Assignment:
+clear
+pwd
+whoami
+sudo su
+hostname
+hostnamectl set-hostname <name>
+touch
+mkdir
+rm -rf
+rm -rf <folder name>
+ls
+ls -lrth
+cd 
+cd ..
+cat
+vim
+vi
+nano
+:wq
+yum install
+yum update
+apt install
+apt update
+date
+uptime
+apt install calendar
+apt install ncal
+cal
+cal 1947
+cal july 1995
+history
+hostname -I
 Use the ls command to list all files in your home directory.  
 
 Navigate to different directories using cd and validate with pwd.  
