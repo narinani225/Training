@@ -1,72 +1,54 @@
-Day 1: Introduction to Linux  
+Day 1: Introduction to Linux
+Content:
+History of Linux:
 
-Content:  
+Evolution of Linux and its role in technology and DevOps.
+Architecture and components of Linux (kernel, shell, file system).
+Linux Distributions Overview:
 
-History of Linux: Learn the evolution of Linux, its architecture, and its importance in DevOps.  
+Key features and differences of Ubuntu, CentOS, Fedora, and others.
+Choosing the right Linux distribution for specific use cases.
+Basic Linux Commands:
 
-Linux Distributions Overview: Explore various Linux distributions like Ubuntu, CentOS, Fedora, and their differences.  
+Navigation: pwd, cd, ls, cd ...
+File and directory operations: mkdir, rmdir, touch, rm -rf.
+Viewing file content: cat, less, more, head, tail.
+Searching: find, grep.
+System information: uname -a, uptime, hostname, hostnamectl.
+User information: whoami, id, who.
+Process management: ps, top, kill.
+Package management: apt, yum, dpkg.
+Tasks:
+Navigation:
 
-Basic Linux Commands: Introduction to commands like ls, pwd, cd, man, whoami, history.  
+Use pwd to confirm your current directory.
+Navigate to different directories using cd and validate the location.
+Use ls with different options (ls -a, ls -l, ls -lrth) to explore files.
+File and Directory Operations:
 
-Assignment:
-clear
-pwd
-whoami
-sudo su
-hostname
-hostnamectl set-hostname <name>
-touch
-mkdir
-rm -rf
-rm -rf <folder name>
-ls
-ls -lrth
-cd 
-cd ..
-cat
-vim
-vi
-nano
-:wq
-yum install
-yum update
-apt install
-apt update
-date
-uptime
-apt install calendar
-apt install ncal
-cal
-cal 1947
-cal july 1995
-history
-hostname -I
-Use the ls command to list all files in your home directory.  
+Create a directory named linux_intro.
+Inside the directory, create files named file1.txt to file5.txt using touch.
+Remove a specific file using rm.
+Create nested directories using mkdir -p dir1/dir2/dir3.
+Viewing and Editing Files:
 
-Navigate to different directories using cd and validate with pwd.  
+Use cat to create a file named notes.txt and add content to it.
+Display the first 5 lines of notes.txt using head.
+Display the last 5 lines using tail.
+Open and edit notes.txt using vim or nano.
+System Information:
 
-Explore the manual pages of any three commands using man.  
+Check the Linux version and kernel using uname -a.
+Use hostname to display the system hostname.
+Change the hostname using hostnamectl set-hostname.
+Use uptime to view how long the system has been running.
+Search and History:
 
-Use whoami to confirm the logged-in user.  
+Search for a specific word in notes.txt using grep.
+List previously executed commands using history.
+Use find to locate a specific file in your home directory.
+Bonus Tasks:
 
-Run history to check previously executed commands.  
-
-Check the Linux version and kernel using uname -a.  
-
-Create a file named intro.txt using touch.  
-
-Explore file details with ls -l.  
-
-Find hidden files using ls -a.  
-
-Create a directory named linux_basics.  
-
-Remove a directory using rmdir and document the result.  
-
-Use the date command to display the current date and time.  
-
-Explore the system uptime using uptime.  
-
-Use df -h to check disk space usage.  
-
-Write your observations about Linux distributions in a file named distro_notes.txt.  
+Install a package (e.g., calendar) using apt install or yum install.
+Display a calendar for the current year using cal.
+Use df -h to check disk usage.
