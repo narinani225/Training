@@ -8,6 +8,34 @@ Shell Scripting: Basics of variables, loops, and conditional statements. 
 
 Assignment:  
 
+TO FIND A WORD IN FILE CONTENT :
+
+esc +/<word>
+
+TAKE BACKUP OF FILE
+cp -rp <filename> copy-filename
+
+TO COMPARE FILES
+
+diff <filename> copy-<filename>
+sdiff <filename> copy-filename
+
+Content:
+echo "txt"
+echo "text" > <file name>
+ 
+Memory&CPU&RAM:
+
+lscpu
+free -m
+free -G
+
+df
+df -h
+du -sh <filename>
+du -h <file>
+
+
 Use ping to check connectivity to google.com and document the result.  
 
 Use ifconfig to view network configurations.  
