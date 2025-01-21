@@ -7,6 +7,32 @@ File Handling Commands: cat, touch, mv, cp, chmod, chown. 
 File Permissions: Understanding Read, Write, Execute permissions with symbolic and numeric representations.  
 
 Assignment:  
+apt install java 
+java --version
+cp -rp <src> <dest>
+mv <src> <dst>
+mv <filename> <rename>
+wc -l etc/passwd    --lines
+wc -w etc/passed    --remove
+wc -c etc/passwd    --charecters 
+
+esc + :w   --write(save)
+esc+ :q     --(quit)
+esc+ :wq    --save&quit
+esc+ :q     --quit and will not save
+
+{
+gg   --topline
+G    --Ground line
+yy   --copy
+n-yy  --copy number of line 
+dd --delete a line
+n-dd --delete number of lines
+u -undo
+dw  -delete word
+4yy --copied 4 lines
+esc :set nu   -add numbers
+esc :set nonu   -remove numbers
 
 Create a directory named project_files.  
 
