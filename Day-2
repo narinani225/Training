@@ -1,65 +1,41 @@
-Day 2: File and Permission Management  
+File and Permission Management
+Content:
+File Handling Commands:
 
-Content:  
+File creation: touch, cat.
+File copying: cp, cp -rp.
+File moving and renaming: mv.
+File deletion: rm.
+File Permissions:
 
-File Handling Commands: cat, touch, mv, cp, chmod, chown.  
+Understanding Read (r), Write (w), Execute (x) permissions.
+Symbolic representation (chmod u+r, chmod a+x).
+Numeric representation (chmod 755).
+Ownership Commands:
 
-File Permissions: Understanding Read, Write, Execute permissions with symbolic and numeric representations.  
+Changing ownership: chown.
+Changing group ownership: chgrp.
+Tasks:
+File Operations:
 
-Assignment:  
-apt install java 
-java --version
-cp -rp <src> <dest>
-mv <src> <dst>
-mv <filename> <rename>
-wc -l etc/passwd    --lines
-wc -w etc/passed    --remove
-wc -c etc/passwd    --charecters 
+Create a directory file_management.
+Inside the directory, create files doc1.txt to doc5.txt.
+Add content to doc1.txt using cat >.
+Copy doc1.txt to backup_doc1.txt.
+Rename doc5.txt to final_doc.txt.
+Delete backup_doc1.txt.
+Permission Management:
 
-esc + :w   --write(save)
-esc+ :q     --(quit)
-esc+ :wq    --save&quit
-esc+ :q     --quit and will not save
+Use ls -l to view file permissions.
+Change doc1.txt to read-only for all users using chmod 444 doc1.txt.
+Add write permission to the owner of doc2.txt.
+Grant execute permission to all users for doc3.txt.
+Modify permissions of doc4.txt using numeric representation to 754.
+Ownership Management:
 
-{
-gg   --topline
-G    --Ground line
-yy   --copy
-n-yy  --copy number of line 
-dd --delete a line
-n-dd --delete number of lines
-u -undo
-dw  -delete word
-4yy --copied 4 lines
-esc :set nu   -add numbers
-esc :set nonu   -remove numbers
+Create a new user and change ownership of a file using chown.
+Change group ownership of a file using chgrp.
+Advanced Tasks:
 
-Create a directory named project_files.  
-
-Inside project_files, create 5 files named file1.txt to file5.txt using touch.  
-
-Add content to file1.txt using cat > and display its contents with cat.  
-
-Copy file1.txt to backup_file1.txt using cp.  
-
-Rename file5.txt to final_file.txt using mv.  
-
-Remove backup_file1.txt using rm.  
-
-Display the permissions of all files in the directory using ls -l.  
-
-Change permissions of file1.txt to read-only using chmod 444 file1.txt.  
-
-Grant write permissions to the owner of file2.txt using chmod u+w file2.txt.  
-
-Change ownership of file3.txt to a different user using chown (if possible).  
-
-Add execute permissions for all users to file4.txt using chmod a+x file4.txt.  
-
-Revoke write permissions for the group on final_file.txt using symbolic representation.  
-
-Modify the permissions of file1.txt using numeric representation to 754.  
-
-Verify permissions by attempting to write, read, or execute restricted files.  
-
-Document the differences between symbolic and numeric permission settings.  
+Use stat to display detailed information about a file.
+Create a script to automate file permission changes for all .txt files in a directory.
