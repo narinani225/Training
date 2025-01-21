@@ -16,6 +16,26 @@ Ownership Commands:
 Changing ownership: chown.
 Changing group ownership: chgrp.
 Tasks:
+File Permissions Table
+Numeric Value	Symbolic Value	Description
+0	---	No permissions
+1	--x	Execute only
+2	-w-	Write only
+3	-wx	Write and execute
+4	r--	Read only
+5	r-x	Read and execute
+6	rw-	Read and write
+7	rwx	Read, write, and execute
+  
+
+Examples of Combined Permissions
+Numeric Value	Symbolic Value	Owner	Group	Others
+000	---------	None	None	None
+644	rw-r--r--	Read, write	Read	Read
+755	rwxr-xr-x	Full	Read, execute	Read, execute
+700	rwx------	Full	None	None
+777	rwxrwxrwx	Full	Full	Full
+
 File Operations:
 
 Create a directory file_management.
